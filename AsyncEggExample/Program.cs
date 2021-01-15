@@ -18,7 +18,7 @@ namespace AsyncEggExample
             var veggiesTask = eggService.AddVeggiesAsync();
             var omeletteTask = eggService.PutOmeletteOnPlate();
 
-
+            Task.WhenAll(eggTask, cheeseTask, meatTask, veggiesTask);
             Egg egg = eggTask.Result;
             Cheese cheese = cheeseTask.Result;
             Veggies veggies = veggiesTask.Result;
