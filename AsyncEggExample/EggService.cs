@@ -12,10 +12,11 @@ namespace AsyncEggExample
         public async Task<Egg> FryEggAsync()
         {
             Console.WriteLine("Crack the egg", Console.ForegroundColor = ConsoleColor.Yellow);
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             Console.WriteLine("Stir the yolk", Console.ForegroundColor = ConsoleColor.Yellow);
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             Console.WriteLine("Pour in the pan", Console.ForegroundColor = ConsoleColor.Yellow);
+            await Task.Delay(1000);
             Console.ResetColor();
             return new Egg();
 
@@ -49,11 +50,13 @@ namespace AsyncEggExample
         }
         public async Task<Omelette> PutOmeletteOnPlate()
         {
-            await Task.Delay(4000);
+           
             Console.WriteLine("Taking omelette out of pan");
+            await Task.Delay(4000);
             Console.WriteLine("Placing omelette on plate");
+            await Task.Delay(4000);
             Console.WriteLine("Serving with desired sides");
-
+            await Task.Delay(4000);
             return new Omelette();
 
         }

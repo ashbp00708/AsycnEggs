@@ -13,9 +13,9 @@ namespace AsyncEggExample
         {
             EggService eggService = new EggService();
             var eggTask = eggService.FryEggAsync();
-            var cheeseTask = eggService.AddCheeseAsync();
-            var veggiesTask = eggService.AddVeggiesAsync();
+            var cheeseTask = eggService.AddCheeseAsync();         
             var meatTask = eggService.AddMeatAsync();
+            var veggiesTask = eggService.AddVeggiesAsync();
             var omeletteTask = eggService.PutOmeletteOnPlate();
 
 
