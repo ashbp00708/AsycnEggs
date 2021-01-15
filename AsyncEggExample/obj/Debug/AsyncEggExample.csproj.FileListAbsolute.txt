@@ -1,0 +1,7 @@
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\bin\Debug\AsyncEggExample.exe.config
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\bin\Debug\AsyncEggExample.exe
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\bin\Debug\AsyncEggExample.pdb
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\obj\Debug\AsyncEggExample.csprojAssemblyReference.cache
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\obj\Debug\AsyncEggExample.csproj.CoreCompileInputs.cache
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\obj\Debug\AsyncEggExample.exe
+C:\Users\Ashley Petty\source\repos\AsyncEggExample\AsyncEggExample\obj\Debug\AsyncEggExample.pdb
